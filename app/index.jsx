@@ -12,6 +12,7 @@ import {
 import { Picker } from "@react-native-picker/picker";
 import Fontisto from "@expo/vector-icons/Fontisto";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
+import Entypo from '@expo/vector-icons/Entypo';
 
 // Define light and dark themes
 const lightTheme = {
@@ -128,7 +129,12 @@ export default function Index() {
       <TouchableOpacity
         style={[styles.darkmode, { backgroundColor: theme.card }]}
         onPress={() => setDarkMode(!darkMode)}>
-        <MaterialIcons name="dark-mode" size={24} color={theme.text} />
+          {theme === lightTheme ? (
+            <MaterialIcons name="dark-mode" size={24} color={theme.text} />
+          ) : (
+            <Entypo name="light-up" size={24} color={theme.text} />
+          )}
+        
       </TouchableOpacity>
     </View>
   );
