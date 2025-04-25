@@ -13,7 +13,6 @@ import { Picker } from "@react-native-picker/picker";
 import Fontisto from "@expo/vector-icons/Fontisto";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import Entypo from '@expo/vector-icons/Entypo';
-import * as Animatable from 'react-native-animatable';
 
 
 // Define light and dark themes
