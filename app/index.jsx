@@ -13,6 +13,8 @@ import { Picker } from "@react-native-picker/picker";
 import Fontisto from "@expo/vector-icons/Fontisto";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import Entypo from '@expo/vector-icons/Entypo';
+import * as Animatable from 'react-native-animatable';
+
 
 // Define light and dark themes
 const lightTheme = {
@@ -120,6 +122,7 @@ export default function Index() {
           </Picker>
         </View>
         <View style={styles.resultContainer}>
+          
           <Text style={[styles.resultText, { color: theme.text }]}>
             Converted Amount: {convertedAmount} {toCurrency}
           </Text>
@@ -167,6 +170,9 @@ const styles = StyleSheet.create({
     height: 50,
     width: 150,
     marginBottom: 20,
+    borderWidth: 1,
+    borderRadius: 20,
+
   },
   pickerContainer: {
     flexDirection: "column",
