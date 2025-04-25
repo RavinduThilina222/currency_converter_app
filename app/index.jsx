@@ -127,12 +127,12 @@ export default function Index() {
       </View>
 
       <TouchableOpacity
-        style={[styles.darkmode, { backgroundColor: theme.card }]}
+        style={[styles.darkmode, { backgroundColor: theme.text }]}
         onPress={() => setDarkMode(!darkMode)}>
           {theme === lightTheme ? (
-            <MaterialIcons name="dark-mode" size={24} color={theme.text} />
+            <MaterialIcons name="dark-mode" size={24} color={theme.card} />
           ) : (
-            <Entypo name="light-up" size={24} color={theme.text} />
+            <Entypo name="light-up" size={24} color={theme.card} />
           )}
         
       </TouchableOpacity>
