@@ -1,50 +1,37 @@
-# Welcome to your Expo app 👋
+# 💱 Currency Converter App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and responsive mobile app built using **React Native** and **Open Exchange Rates API**, allowing users to convert between currencies with real-time exchange rates. Includes **dark/light mode**, **animations**, and a clean UI using native components.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- Convert between over 100 currencies
+- Real-time exchange rate using Open Exchange Rates API
+- Manual currency swap
+- Dark mode toggle
+- Animated UI (fade, bounce, rotate)
+- Built with functional components and React Hooks
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Open Exchange Rates API](https://openexchangerates.org/)
+- [@react-native-picker/picker](https://github.com/react-native-picker/picker)
+- [axios](https://github.com/axios/axios)
+- [Fontisto Icons](https://icons.expo.fyi/Fontisto)
+- [Material Icons](https://icons.expo.fyi/MaterialIcons)
 
-   ```bash
-    npx expo start
-   ```
+## 📦 Installation
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+> Make sure you have **Node.js** and **Expo CLI** installed.
 
 ```bash
-npm run reset-project
-```
+# Clone the repo
+git clone https://github.com/your-username/currency-converter-app.git
+cd currency-converter-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start the Expo development server
+npx expo start
